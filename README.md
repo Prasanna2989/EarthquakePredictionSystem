@@ -8,10 +8,6 @@ An end-to-end data engineering and visualization project that ingests seismic da
 
 EarthquakePredictionSystem/ ├── README.md # Project documentation ├── .gitignore # Git ignored files ├── database/ │ ├── schema.sql # SQL script to create DB schema │ └── sample_data.sql # Optional sample data ├── data_ingestion/ │ └── fetch_usgs_data.py # Script to ingest data from USGS ├── ui/ │ └── HelloFX.java # JavaFX dashboard starter
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🧰 Tools & Technologies
@@ -43,7 +39,7 @@ Edit
 ```bash
 git clone https://github.com/YourUsername/EarthquakePredictionSystem.git
 cd EarthquakePredictionSystem
-2. Set Up PostgreSQL Database
+### 2. Set Up PostgreSQL Database
 Ensure PostgreSQL is installed and running
 
 Create the database and run the schema script:

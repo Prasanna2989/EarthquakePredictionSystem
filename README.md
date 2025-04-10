@@ -52,11 +52,13 @@ Ensure PostgreSQL is installed and running
 psql -U your_user -d your_db -f database/schema.sql
 
 ---
+
 ###(Optional) Load sample data:
 
 psql -U your_user -d your_db -f database/sample_data.sql
 
 ---
+
 ###3. Ingest Data from USGS
 
 cd data_ingestion
@@ -64,6 +66,7 @@ python fetch_usgs_data.py
 💡 Make sure to update your PostgreSQL connection settings inside the Python script.
 
 ---
+
 ###4. Launch JavaFX UI
 Open the project in Eclipse or any Java IDE
 
@@ -72,6 +75,7 @@ Configure the JavaFX SDK
 Run HelloFX.java to start the UI dashboard
 
 ---
+
 📊 Sample Use Cases
 🕵️ Detect regions with frequent seismic activity
 
@@ -80,6 +84,7 @@ Run HelloFX.java to start the UI dashboard
 🔔 Use sensor data (future module) for early warning insights
 
 ---
+
 📌 Future Enhancements
 Real-time data streaming and live dashboards
 
@@ -97,3 +102,5 @@ Prasanna Mahesh Gunawardana
 
 📄 License
 This project is licensed under the MIT License — feel free to use and modify with credit.
+
+---

@@ -1,0 +1,46 @@
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+*.log
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+out/
+*.log
+
+# === Eclipse/IDE ===
+*.swp
+.idea/
+.project
+.classpath
+.settings/
+
+# === Database Dumps or Credentials ===
+*.sql~
+*.dump
+*.bak
+
+# === Node/npm (if used later) ===
+node_modules/
+npm-debug.log
+
+# === VS Code (if using) ===
+.vscode/
+
+# === Misc ===
+*.tmp
+*.temp
+

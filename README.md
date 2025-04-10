@@ -53,13 +53,13 @@ psql -U your_user -d your_db -f database/schema.sql
 
 ---
 
-###(Optional) Load sample data:
+### (Optional) Load sample data:
 
 psql -U your_user -d your_db -f database/sample_data.sql
 
 ---
 
-###3. Ingest Data from USGS
+### 3. Ingest Data from USGS
 
 cd data_ingestion
 python fetch_usgs_data.py
@@ -67,7 +67,7 @@ python fetch_usgs_data.py
 
 ---
 
-###4. Launch JavaFX UI
+### 4. Launch JavaFX UI
 Open the project in Eclipse or any Java IDE
 
 Configure the JavaFX SDK
@@ -76,7 +76,7 @@ Run HelloFX.java to start the UI dashboard
 
 ---
 
-📊 Sample Use Cases
+### 📊 Sample Use Cases
 🕵️ Detect regions with frequent seismic activity
 
 🔁 Track earthquakes by day, depth, and magnitude
@@ -85,7 +85,7 @@ Run HelloFX.java to start the UI dashboard
 
 ---
 
-📌 Future Enhancements
+### 📌 Future Enhancements
 Real-time data streaming and live dashboards
 
 Deploy web-based UI (e.g., using Dash or React.js)
